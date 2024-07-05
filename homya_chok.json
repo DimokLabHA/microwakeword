@@ -1,0 +1,12 @@
+{
+  "type": "micro",
+  "wake_word": "homya chok",
+  "author": "Dimok Lab",
+  "website": "https://dimoklab.narod.ru/",
+  "model": "./homya_chok.tflite",
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_average_size": 10
+  }
+}
